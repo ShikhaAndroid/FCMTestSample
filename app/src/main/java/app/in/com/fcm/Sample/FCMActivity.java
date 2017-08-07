@@ -28,7 +28,7 @@ public class FCMActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_another);
         Button button2 = (Button) findViewById(R.id.button2);
-        Log.v("TAG","FCM");
+        Log.v("TAG","FCMTest");
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
