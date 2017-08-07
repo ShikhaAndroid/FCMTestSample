@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "532827455679",
+    "firebase_url": "https://fcmsample-1efa8.firebaseio.com",
+    "project_id": "fcmsample-1efa8",
+    "storage_bucket": "fcmsample-1efa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532827455679:android:da0f6b08c9495e4b",
+        "android_client_info": {
+          "package_name": "app.jagbani.com.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532827455679-i8jqtubicmi4ecnq58noik6m4gqkfau8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.jagbani.com.fcm",
+            "certificate_hash": "a6b9771916a8ce0e83072e880cab57e44502f393"
+          }
+        },
+        {
+          "client_id": "532827455679-a7ori6fpk33q2s0ejrd1r5t36sr4k4pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfq3AR-UnwoCouYCyknJ3dC2svVBvUvtY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532827455679-a7ori6fpk33q2s0ejrd1r5t36sr4k4pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

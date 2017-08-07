@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FCM</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_activity">This is our Main Activity</string>
+    <string name="another_activity">This is our Another Activity</string>
+    <string name="FCM_PREF">app.jagbani.com.fcm.fcm_pref</string>
+    <string name="FCM_TOKEN">app.jagbani.com.fcm.fcm_token</string>
+</resources>
