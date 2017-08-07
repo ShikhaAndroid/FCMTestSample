@@ -22,19 +22,19 @@ import retrofit2.Response;
  */
 
 public class FCMActivity extends AppCompatActivity {
-    private Button button2;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_another);
-        button2=(Button)findViewById(R.id.button2);
+        Button button2 = (Button) findViewById(R.id.button2);
+        Log.v("TAG","FCM");
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences(getString(R.string.FCM_PREF), Context.MODE_PRIVATE);
+                SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences
+                        (getString(R.string.FCM_PREF), Context.MODE_PRIVATE);
                 final String token = sharedPreferences.getString(getString(R.string.FCM_TOKEN), "");
-                Log.v("TAG", token);
                 FcmService fcmService = RestClient.sendFcmToken();
                 final Call<ResponseBody> responseBodyCall = fcmService.fcmService(token);
                 responseBodyCall.enqueue(new Callback<ResponseBody>() {
